@@ -1,3 +1,7 @@
+# BarKan
+Code for Computing and Programming Subject at the University of Lucern
+Created by: José Saúl Barrientos Rivera and Yassine Kandili
+
 1 :1.1 Register https://api.tiingo.com/ and get you API key
    1.2 To install Shiny for Python, first create a new directory for your first Shiny app, and change to it.
 
