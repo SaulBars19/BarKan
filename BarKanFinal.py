@@ -90,6 +90,8 @@ def plot_stock_data(stock1_data, stock2_data, ticker1, ticker2, plot_type):
         ax.set_ylabel("Price")
         ax.fill_between(stock1_data["date"], stock1_data["Bollinger_up"], stock1_data["Bollinger_down"], color = "grey", alpha = 0.1)
     return fig
+    # When you plot the figure, be shure to Open the Date Frame into the Shiny App at least 2 MONTHS, 
+    # Otherwise only Closing Prices line will show
 
 def create_stock_table(stock1_data, stock2_data):
     # This function create_stock_table concatenates the two pandas dataframes along the columns(axis=1)
